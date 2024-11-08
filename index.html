@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Details</title>
+    <style>
+        .product-button {
+            margin: 5px;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .loading {
+            background-color: #6c757d;
+        }
+        #product-details {
+            margin-top: 20px;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h2>Click on a Product to Load Details</h2>
+    <button class="product-button" data-product-id="101">Load Product 101</button>
+    <button class="product-button" data-product-id="102">Load Product 102</button>
+    <button class="product-button" data-product-id="103">Load Product 103</button>
+
+    <div id="product-details"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
